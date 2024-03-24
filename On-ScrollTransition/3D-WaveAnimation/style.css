@@ -111,3 +111,7 @@ body{
 	transform: translateZ(calc(var(--index) * 10));
     margin: 0 .45vw;
 }
+
+.content{
+    
+}
