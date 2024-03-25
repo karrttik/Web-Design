@@ -10,10 +10,36 @@
 }
 
 body{
+    overflow: hidden;
     background-color: #141414;
 }
 
-.wrapper{
+.contentContainer{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.navigation{
+    width: 15%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation a{
+    font-size: 16px;
+    color: gray;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: #fff;
+}
+
+.wrapperContainer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,8 +136,4 @@ body{
 	z-index: 100;
 	transform: translateZ(calc(var(--index) * 10));
     margin: 0 .45vw;
-}
-
-.content{
-    
 }
